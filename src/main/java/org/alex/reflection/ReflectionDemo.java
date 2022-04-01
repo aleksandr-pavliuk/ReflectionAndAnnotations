@@ -18,7 +18,7 @@ public class ReflectionDemo {
 
 
 class MyClass{
-  private MyClass(){
+  MyClass(){
     System.out.println("MyClass object created!");
   }
 }

@@ -1,0 +1,6 @@
+2022-03-30 10:34:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TRANSACTIONHISTORY" not found (this database is empty); SQL statement:
+select * from TransactionHistory where transactionId = 1 [42104-210]
+2022-03-30 10:35:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TRANSACTIONHISTORY" not found (this database is empty); SQL statement:
+insert into TransactionHistory(transactionId,accountNumber,name,transactionType,amount) values (?,?,?,?,?); [42104-210]
